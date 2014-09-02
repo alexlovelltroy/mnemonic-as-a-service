@@ -19,3 +19,10 @@ This flask service is what I built.
 
 enjoy!
 
+# Usage
+
+1. configure your web server. Nginx configuration stanza included
+2. install the python dependencies ```pip install -r requirements.txt```
+3. ```run.sh```
+4. ```curl http://hostname/2```
+
