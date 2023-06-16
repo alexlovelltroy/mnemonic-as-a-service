@@ -1,7 +1,5 @@
-github.com/alexlovelltroy/mnemonic v0.0.0-20230615071019-d559444d1c17 h1:GDpqGAJLbakQlGPkKC2wtVi+++bCSGzkI1P0mKywQkM=
-github.com/alexlovelltroy/mnemonic v0.0.0-20230615071019-d559444d1c17/go.mod h1:VG3CuVNdOMTj3e00NOeADBvUE4Uk8tj4e15Utv5+4QU=
-github.com/alexlovelltroy/mnemonic v0.1.0 h1:IHeA1xs2o2+w8TuKuK5xcn/+SK+Mk6TZ1AxMaCnEzl0=
-github.com/alexlovelltroy/mnemonic v0.1.0/go.mod h1:VG3CuVNdOMTj3e00NOeADBvUE4Uk8tj4e15Utv5+4QU=
+github.com/alexlovelltroy/mnemonic v0.1.1 h1:qZCeESt8/1jfkegh6Pyp+CnBOYT6lEOXX+qyMdQGxHQ=
+github.com/alexlovelltroy/mnemonic v0.1.1/go.mod h1:VG3CuVNdOMTj3e00NOeADBvUE4Uk8tj4e15Utv5+4QU=
 github.com/bytedance/sonic v1.5.0/go.mod h1:ED5hyg4y6t3/9Ku1R6dU/4KyJ48DZ4jPhfY1O2AihPM=
 github.com/bytedance/sonic v1.9.1 h1:6iJ6NqdoxCDr6mbY8h18oSO+cShGSMRGCEo7F2h0x8s=
 github.com/bytedance/sonic v1.9.1/go.mod h1:i736AoUSYt75HyZLoJW9ERYxcy6eaN6h4BZXU064P/U=
@@ -11,6 +9,8 @@ github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311/go.mod h1:b583j
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/docker/docker v24.0.2+incompatible h1:eATx+oLz9WdNVkQrr0qjQ8HvRJ4bOOxfzEo8R+dA3cg=
+github.com/docker/docker v24.0.2+incompatible/go.mod h1:eEKB0N0r5NX/I1kEveEz05bcu8tLC/8azJZsviup8Sk=
 github.com/gabriel-vasile/mimetype v1.4.2 h1:w5qFW6JKBz9Y393Y4q372O9A7cUSequkh1Q7OhCmWKU=
 github.com/gabriel-vasile/mimetype v1.4.2/go.mod h1:zApsH/mKG4w07erKIaJPFiX0Tsq9BFQgN3qGY5GnNgA=
 github.com/gin-contrib/sse v0.1.0 h1:Y/yl/+YNO8GZSjAhjMsSuLt29uWRFHdHYUb5lYOV9qE=

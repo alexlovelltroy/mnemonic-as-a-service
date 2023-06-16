@@ -5,7 +5,7 @@
 >-- Phil Karlton
 
 
-Several weeks ago, the nice folks at [mnx.io](http://mnx.io/) wrote a fun [blog post](http://mnx.io/blog/a-proper-server-naming-scheme/) about server naming schemes.
+The nice folks at [mnx.io](http://mnx.io/) wrote a fun [blog post](http://mnx.io/blog/a-proper-server-naming-scheme/) about server naming schemes.
 
 One of the pearls of wisdom is the recommendation to use Oren Tirosh’s [mnemonic encoding project](http://web.archive.org/web/20090918202746/http://tothink.com/mnemonic/wordlist.html) as a wordlist. 
 
@@ -13,16 +13,18 @@ GENIUS!
 
 I’d never heard of that particular wordlist before and immediately downloaded it and built a [shell function](https://gist.github.com/alexlovelltroy/119c32a12f6aca28c3f3) to give me a few examples for codenames.
 
-Then, I decided I wanted my shell function available on the web through curl.
 
-This flask service is what I built.
+## Python implementation
 
-enjoy!
+There's a flask application in the[python](/python) directory that serves out the list
 
-# Usage
+## Go implementaion
 
-1. configure your web server. Nginx configuration stanza included
-2. install the python dependencies ```pip install -r requirements.txt```
-3. ```run.sh```
-4. ```curl http://hostname/2```
+There's a go module you can import with `go get github.com/alexlovelltroy/mnemonic` with an implementation in the [cmd/mnemonic-webservice](/cmd/mnemonic-webservice/) directory.
+
+## Bonus
+
+The Docker project, which is now called moby, has it's own method of generating names based on scientists.  I've always been a fan of that too.
+
+https://github.com/moby/moby/blob/master/pkg/namesgenerator/names-generator.go
 
